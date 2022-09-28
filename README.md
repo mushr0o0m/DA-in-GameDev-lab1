@@ -213,21 +213,23 @@ plt.plot(x,prediction)
 - Должна ли величина loss стремиться к нулю при изменении исходных данных? Ответьте на вопрос, приведите пример выполнения кода, который подтверждает ваш ответ.
 Да, так как с каждой следующе итерацией величина loss уменьшается, что видно на следующем скриншате:
 
-- Какова роль параметра Lr? Ответьте на вопрос, приведите пример выполнения кода, который подтверждает ваш ответ. В качестве эксперимента можете изменить значение параметра.
+![](https://github.com/mushr0o0m/DA-in-GameDev-lab1-description-and-attachments/blob/main/img/Task-3/3.1.png)
 
+- Какова роль параметра Lr? Ответьте на вопрос, приведите пример выполнения кода, который подтверждает ваш ответ. В качестве эксперимента можете изменить значение параметра.
+Lr отвечает за точность модели, так как при изменении этого параметра меняется значение функции потери, что представляют собой меру ошибок, которая делает модель 
+на наборе данных
+
+Значения выводимые при Lr * 10^2:
+
+![](https://github.com/mushr0o0m/DA-in-GameDev-lab1-description-and-attachments/blob/main/img/Task-3/3.3-x10%5E2.png)
+
+Значения выводимые при Lr * 10^-2:
+
+![](https://github.com/mushr0o0m/DA-in-GameDev-lab1-description-and-attachments/blob/main/img/Task-3/3.3-x10%5E-2.png)
 
 ## Выводы
 
-asdasdasd
-
-| Plugin | README |
-| ------ | ------ |
-| Dropbox | [plugins/dropbox/README.md][PlDb] |
-| GitHub | [plugins/github/README.md][PlGh] |
-| Google Drive | [plugins/googledrive/README.md][PlGd] |
-| OneDrive | [plugins/onedrive/README.md][PlOd] |
-| Medium | [plugins/medium/README.md][PlMe] |
-| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
+В первую очередь, я получил опыт работы с github, также попрактиковался в чтении и изучении кода на python, на платформе google.colab. При ответе на второй вопрос задания 3 я более подробно изучил линейную регрессию и функцию потерь методом наименьших квадратов.
 
 ## Powered by
 
